@@ -1,0 +1,100 @@
+<div class="gcenter container">
+  <h1><b>Please Select Your Vehicle</b> (multiple selections)</h1>
+  <div class="row placeholders gv_center main">
+    <div class="col-xs-6 col-sm-3 placeholder vitem activeV">
+      <img id="vehicle1" src="pic/vehicle/v_u_1.png" width="90px" height="90px" onmouseover="onHoverV(1);" onmouseout="offHoverV(1);">
+      <h4>Car</h4>
+    </div>
+    <div class="col-xs-6 col-sm-3 placeholder vitem">
+      <img id="vehicle2" src="pic/vehicle/v_u_2.png" width="90px" height="90px" onmouseover="onHoverV(2);" onmouseout="offHoverV(2);">
+      <h4>Scooter</h4>
+    </div>
+    <div class="col-xs-6 col-sm-3 placeholder vitem">
+      <img id="vehicle3" src="pic/vehicle/v_u_3.png" width="90px" height="90px" onmouseover="onHoverV(3);" onmouseout="offHoverV(3);">
+      <h4>Motorycle</h4>
+    </div>
+    <div class="col-xs-6 col-sm-3 placeholder vitem nooption">
+      <img id="vehicle4" src="pic/vehicle/v_u_4.png" width="90px" height="90px" onmouseover="onHoverV(4);" onmouseout="offHoverV(4);">
+      <h4>Bicycle</h4>
+    </div>
+  </div>
+</div>
+
+<div class="gpopover" id="pop1">
+  <div class="gpop_center container">
+    <form class="form2_1">
+      <div class="form-group col-xs-4">
+        <select name="year" class="form-control" id="car_year">
+          <option value="" disabled selected>Year</option>
+        </select>
+      </div>
+      <div class="form-group col-xs-4">
+        <select name="make" class="form-control" id="car_make">
+          <option value="-1" disabled selected>Make</option>
+        </select>
+      </div>
+      <div class="form-group col-xs-4">
+        <select name="model" class="form-control" id="car_model">
+          <option value="" disabled selected>Model</option>
+        </select>
+      </div> 
+      <div class="form-group col-xs-12">
+        <input type="text" data-provide="datepicker" name="registrationdate" class="form-control" placeholder="Registration Date" id="registrationdate">
+      </div>
+    </form>
+  </div>
+</div>
+
+<div class="gpopover" id="pop2" style="display:none">
+  <div class="gpop_center container">
+    <form class="form2_2">
+      <div class="form-group col-xs-4">
+        <input type="text" name="year" class="form-control" id="modalyear" placeholder="Year">
+      </div>
+      <div class="form-group col-xs-4">
+        <input type="text" name="make" class="form-control" placeholder="Make">
+      </div>
+      <div class="form-group col-xs-4">
+        <input type="text" name="model" class="form-control" placeholder="Model">
+      </div> 
+      <div class="form-group col-xs-12">
+        <input type="text" data-provide="datepicker" name="registrationdate" class="form-control" placeholder="Registration Date" id="sregistrationdate">
+      </div>
+    </form>
+  </div>
+</div>
+
+<div class="gpopover" id="pop3" style="display:none">
+  <div class="gpop_center container">
+    <form class="form2_3">
+      <div class="form-group col-xs-4">
+        <input type="text" name="year" class="form-control" id="modalyear" placeholder="Year">
+      </div>
+      <div class="form-group col-xs-4">
+        <input type="text" name="make" class="form-control" placeholder="Make">
+      </div>
+      <div class="form-group col-xs-4">
+        <input type="text" name="model" class="form-control" placeholder="Model">
+      </div> 
+      <div class="form-group col-xs-12">
+        <input type="text" data-provide="datepicker" name="registrationdate" class="form-control" placeholder="Registration Date" id="mregistrationdate">
+      </div>
+    </form>
+  </div>
+</div>
+
+<div class="gpopover" id="pop4" style="display:none">
+  <div class="gpop_center container">
+    <form class="form2_4">
+      <div class="checkbox">
+        <label style="padding-bottom:0px; margin-left:0px; color:#808080; font-size:15px;">
+          <input type="checkbox" id="isChecked" name="bikeused"> I am Bicycle Delivery Guy!</input>
+        </label>
+      </div>
+    </form>
+  </div>
+</div>
+
+<!-- load js -->
+<script src="./js/driver_contents.js"></script>
+<script src="./js/driver_vehicle.js"></script>

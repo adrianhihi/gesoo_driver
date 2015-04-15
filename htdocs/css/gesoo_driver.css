@@ -1,0 +1,30 @@
+body {
+  padding-top: 112px;
+  background-color: #f7f0e6;
+}
+
+.gnav {
+  background-color: #595651;
+  height: 112px;
+  vertical-align: middle;
+}
+
+.gnavbar-brand {
+  padding-top: 33.5px;
+  opacity: 0.8;
+  filter: alpha(opacity=40); /* For IE8 and earlier */
+}
+.navbar-nav {
+  padding-top: 22px;
+  padding-left: 100px;
+}
+
+.gnavbar-mid {
+  padding-top: 20px;
+  color: white;
+}
+.test {
+  background-color: aqua;
+}
+
+

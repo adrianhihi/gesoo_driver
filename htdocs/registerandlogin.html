@@ -1,0 +1,156 @@
+
+<div class="gcenter container">
+  <!-- mid -->
+  <div class="gcenter_nav">
+    <div class="gcenter_nav_left" id="switchregister"><span>新用户注册</span></div>
+    <div class="gcenter_nav_right" id="switchlogin"><span>已有账号？</span></div>
+  </div>
+
+  <!-- register -->  
+
+<div class="gform_center" id="registercontent">
+    <div class="leftBtn stepButton col-xs-1 hidden-xs">
+        <img src="./pic/button/driver_left.png" width="50px" height="50px" onclick="lastStep();" onmouseover="onHoverB(1);" onmouseout="offHoverB(1);" id="leftButton">
+    </div>  
+<!--     <div class="leftBtnM stepButton col-xs-6 visible-xs">
+        <img src="./pic/button/driver_left_m.png" width="50px" height="50px" onclick="lastStep();" onmouseover="onHoverB(1);" onmouseout="offHoverB(1);" id="leftButton">
+    </div>   -->
+
+    <form class="form1_1 col-xs-12 visible-xs">
+      <div class="form-group col-xs-6">
+        <input type="text" name="firstname" class="form-control" id="FirstName" placeholder="First Name">
+      </div>
+      <div class="form-group col-xs-6">
+        <input type="text" name="lastname" class="form-control" id="LastName" placeholder="Last Name">
+      </div>
+
+      <div class="form-group col-xs-12">
+        <input type="text" name="email" class="form-control" id="email" placeholder="Email Address (login user name)">
+      </div>
+      <div class="form-group col-xs-12">
+        <input type="password" name="password" class="form-control" id="password" placeholder="Create Password">
+      </div>
+
+      <div class="form-group col-xs-6">
+        <div class="input-group">
+          <input type="text" name="zipcode" class="form-control" id="gzipcode" placeholder="ZIP CODE" maxlength="5">
+          <div class="zip_button input-group-addon" id="gzipbutton"></div>
+        </div>
+      </div>
+
+      <div class="form-group col-xs-6">
+        <input type="text" name="invitecode" class="form-control" id="invitecode" placeholder="Invite Code(optional)">
+      </div>        
+    </form>
+
+    <form class="form1_1 col-xs-10 hidden-xs">
+      <div class="form-group col-xs-6">
+        <input type="text" name="firstname" class="form-control" id="FirstName" placeholder="First Name">
+      </div>
+      <div class="form-group col-xs-6">
+        <input type="text" name="lastname" class="form-control" id="LastName" placeholder="Last Name">
+      </div>
+
+      <div class="form-group col-xs-12">
+        <input type="text" name="email" class="form-control" id="email" placeholder="Email Address (login user name)">
+      </div>
+      <div class="form-group col-xs-12">
+        <input type="password" name="password" class="form-control" id="password" placeholder="Create Password">
+      </div>
+
+      <div class="form-group col-xs-6">
+        <div class="input-group">
+          <input type="text" name="zipcode" class="form-control" id="gzipcode" placeholder="ZIP CODE" maxlength="5">
+          <div class="zip_button input-group-addon" id="gzipbutton"></div>
+        </div>
+      </div>
+
+      <div class="form-group col-xs-6">
+        <input type="text" name="invitecode" class="form-control" id="invitecode" placeholder="Invite Code(optional)">
+      </div>        
+    </form>
+
+    <div class="rightBtn stepButton col-xs-1 hidden-xs">
+        <img src="./pic/button/driver_right.png" width="50px" height="50px" onclick="lastStep();" onmouseover="onHoverB(2);" onmouseout="offHoverB(2);" id="rightButton">
+    </div>
+<!--     <div class="rightBtnM stepButton col-xs-6 visible-xs">
+        <img src="./pic/button/driver_right_m.png" width="50px" height="50px" onclick="lastStep();" onmouseover="onHoverB(2);" onmouseout="offHoverB(2);" id="rightButton">
+    </div> -->
+  </div>
+
+  <!-- Login -->
+  <div class="gform_center" id="logincontent" style="display: none;">  
+    <form class="form1_2">
+      <div class="form-group col-xs-12">
+        <input type="text" name="email" class="form-control" id="emailLogin" placeholder="Email Address (login user name)">
+      </div>
+      <div class="form-group col-xs-12">
+        <input type="password" name="password" class="form-control" id="passwordLogin" placeholder="Create Password">
+      </div>
+
+      <div class="form-group col-xs-6">
+        <div class="input-group">
+          <input type="text" name="zipcode" class="form-control" id="gzipcodeLogin" placeholder="ZIP CODE" maxlength="5">
+          <span class="input-group-addon zip_button" id="gzipbuttonLogin">
+          </span>
+        </div>
+      </div>
+      <div class="form-group col-xs-6">
+        <input type="text" name="invitecode" class="form-control" id="invitecodeLogin" placeholder="Invite Code(optional)">
+      </div>        
+    </form>
+  </div>
+
+  <!-- bottom -->   
+  <div class="divider">
+    <img src="./pic/login/driver_recruite_login_55.png" width="55%">
+  </div>
+
+  <div class="gbottomtitle">
+    <span>Please Select your Phone Type</span>
+    <img src="./pic/login/driver_recruite_login_21.png" width="25px" height="25px">
+  </div>
+
+    <div class="gbottom" id="gbottom_ref">
+      <div class="col-xs-6 gbleft">
+        <img src="./pic/login/driver_recruite_login_59.png" width="70px" height="70px" onclick="rotateAndMoveLeft();">
+        <br>
+        <span>iPhone</span>
+      </div>
+
+      <div class="col-xs-6 gbright">
+        <img src="./pic/login/driver_recruite_login_61.png" width="70px" height="70px">
+        <br>
+        <span>Android</span>
+      </div>
+    </div>
+</div>
+
+
+
+<!-- load js -->
+<script type="text/javascript" src="./js/jQueryRotate.js"></script>
+<script src="./js/driver_contents.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

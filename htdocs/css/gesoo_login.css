@@ -1,0 +1,477 @@
+body {
+    background-color: #f7f0e6;
+    padding-top: 112px;
+}
+
+<!-- Nav -->
+.navbar-nav > li > a:hover, .navbar-nav > li > a:focus {
+    background-color:transparent; 
+}
+
+.gnav {
+  background-color: #595651;
+  height: 112px;
+  vertical-align: middle;
+  
+}
+
+.navContent {
+  width: 1000px;
+  margin:auto;
+  text-align:center;
+  vertical-align: middle;
+  height: 112px;
+}
+
+.navbar-brand {
+  padding-top: 33.5px;
+  height: 112px;
+
+}
+
+.navbar-header {
+  float: left;
+  opacity: 0.8;
+  filter: alpha(opacity=80); /* For IE8 and earlier */
+}
+
+.navbar-header:hover {
+  opacity: 1.0;
+  filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+
+.navItems {
+  text-align: center;
+  margin-top: 34px;
+  color: white;
+  font-size: 10px;
+  font-weight: 200;
+  background-image: url(../pic/login/driver_recruite_login_03.png);
+  background-repeat: no-repeat;
+  background-position: 84px 12px;
+  background-size: 389px 8px;
+}
+
+.navItem1 {
+  opacity: 0.6;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+.navItem2 {
+  opacity: 0.6;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+.navItem3 {
+  opacity: 0.6;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+.navItem4 {
+  opacity: 0.6;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+.navItems p {
+  margin: 0;
+  padding-top: 2px;
+  color: white;
+  
+  text-align: center;
+}
+
+.navItemsRight {
+  text-align: center;
+  margin-top: 34px;
+  color: #f7f0e6;
+  font-size: 10px;
+  opacity: 0.60;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+.navItemRight:hover {
+  opacity: 0.80;
+  filter: alpha(opacity=80); /* For IE8 and earlier */
+}
+
+.navItemsRight p {
+  margin: 0;
+  padding-top: 2px;
+  color: white;
+}
+
+.atest p {
+  margin: 0;
+  padding-top: 2px;
+  color: white;
+  width: 30.5px;
+
+}
+
+<!-- Contents -->
+
+.container {
+  width: 1000px;
+}
+
+.gcenter {
+  text-align: center;
+  padding-top: 70px;
+  margin: 0 auto;
+}
+
+.gcenter h1 {
+  font-size: 17px;
+  font-weight: 200;
+  color: #808080;
+}
+
+.gcenter b {
+  font-weight: 400;
+}
+.gcenter_nav {
+
+  margin: 0 auto;
+  width: 260px;
+  height: 41.438px;
+}
+
+.gcenter_nav_left {
+  width: 50%;
+  height: 100%;
+  background-image: url(../pic/login/driver_recruite_login2_44.png);
+  background-size: 130px, 41.438px;
+  background-repeat: no-repeat;
+  float: left;
+  display: inline;
+  
+  color: white;
+  text-align:center;
+  vertical-align: middle;
+  line-height: 41.438px;
+  font-size: 15px;
+  
+  font-weight:500;
+}
+
+.gcenter_nav_left:hover {
+  opacity: 0.8;
+  filter: alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+.gcenter_nav_right {
+  width: 50%;
+  height: 100%;
+  float: left;
+  display: inline;
+  
+  background-image: url(../pic/login/driver_recruite_login_44.png);
+  background-size: 130px, 41.438px;
+  background-repeat: no-repeat;
+  color:#4d4d4d;
+  font-weight:500;
+  
+  line-height: 41.438px;
+  font-size: 15px;
+  text-align:center;
+}
+
+.gcenter_nav_right:hover {
+  opacity: 0.8;
+  filter: alpha(opacity=80); /* For IE8 and earlier */
+}
+
+.gform_center {
+  padding-top: 30px;
+  width: 55%;
+  margin: 0 auto;
+  min-width: 380px;
+  max-width: 550px;
+}
+
+.gv_center {
+  padding-top: 30px;
+  width: 65%;
+  margin: 0 auto;
+  min-width: 380px;
+  max-width: 600px;
+}
+
+.gv_center h4 {
+  font-size: 16px;
+  font-weight: 400;
+  color: #808080;
+  margin-top: 0px;
+  text-align: center;
+}
+
+
+input[type=text]:focus, input[type=password]:focus, input[type=date]:focus, textarea:focus, input[type=textarea]:focus {
+  outline: none !important;
+  box-shadow: 0 0 2px #ffae1a !important;
+  border: 1px solid #ffae1a !important;
+  
+}
+
+#registrationdate, #sregistrationdate, #mregistrationdate {
+  border-radius: 17px !important;
+  color:#6D6D6D !important;
+}
+
+#registrationdate :focus, #sregistrationdate:focus, #mregistrationdate:focus {
+  outline: none !important;
+  box-shadow: 0 0 2px #ffae1a !important;
+  border: 1px solid #ffae1a !important;
+  color:#6D6D6D !important;
+}
+
+select {
+  border-radius: 17px !important;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  text-indent: 0.01px !important;
+  color: #929291 !important;
+
+  opacity: 0.9;
+  filter: alpha(opacity=90); /* For IE8 and earlier */
+}
+
+select:focus {
+  outline: none !important;
+  box-shadow: 0 0 2px #ffae1a !important;
+  border: 1px solid #ffae1a !important;
+  color: #929291 !important;
+}
+input[type=date] {
+  outline: none !important;
+  color: #929291 !important;
+  border-radius: 17px;
+  opacity: 0.9;
+  filter: alpha(opacity=90); /* For IE8 and earlier */
+}
+
+input {
+  opacity: 0.9;
+  filter: alpha(opacity=90); /* For IE8 and earlier */
+}
+
+
+.form-control[id=modelyear]:focus {
+  box-shadow: 0 0 2px #ffae1a !important;
+  border: 1px solid #ffae1a !important;
+}
+
+
+.form-control[id=gzipcode], .form-control[id=gzipcodeLogin] {
+  width: 100%;
+  border-right: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.form-control[placeholder=Model], .form-control[placeholder=Make], .form-control[placeholder=Year] {
+  border-radius: 17px;
+}
+
+.zip_button {
+  
+  background-image: url(../pic/login/driver_recruite_login_47.png);
+  background-repeat: no-repeat;
+  background-color:transparent;
+  background-size: 100% 100%;
+  
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border: 0;
+  margin: 0;
+  height: 34px;
+  width: 34px;
+}
+
+span {
+  cursor:default;
+}
+
+.divider {
+  margin-top: 10px;
+  margin: 0 auto;
+  min-width: 380px;
+}
+
+.gbottomtitle {
+  padding-top: 10px;
+  margin: 0 auto;
+  text-align: center;
+  color: #A9A9A9;
+  font-size: 12px;
+  font-weight:300;
+  min-width: 380px;
+}
+
+.gbottom {
+  padding-top: 20px;
+  width: 390px;
+  margin: 0 auto;
+  text-align: center;
+  color: #A9A9A9;
+  font-size: 12px;
+  font-weight:300;
+  min-width: 380px;
+}
+
+#downloadapp {
+
+  font-size: 13px;
+  color: white;
+
+  background-color: transparent;
+  height: 34px;
+  width: 90px;
+  background-position: center;
+  border-radius: 17px;
+  
+  background-color: #ff8600;
+  
+  border: 1px;
+  border-color: white;
+  border-style: solid;
+  box-shadow: 1px 2px 5px lightgray;
+  
+  line-height: 34px;
+  vertical-align: middle;
+  
+  cursor:pointer;
+}
+
+#phonenumber {
+  border-radius: 17px;
+}
+
+
+.placeholders.gform_center {
+  margin-top: 40px;
+}
+
+.gpopover {
+  border-style: dotted;
+  border-width: 1px;
+  border-color: #D3D1D4;
+  border-radius: 15px;
+  background-color: #FFF9F1;
+  
+  width: 65%;
+  margin: 0 auto;
+  margin-top: 30px;
+  min-width: 380px;
+  max-width: 600px;
+}
+
+.gpop_center {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  min-width: 380px;
+  max-width: 600px;
+}
+
+textarea {
+  resize: none;
+  width: 100%;
+  max-width: 600px;
+  min-width: 380px;
+  border-radius: 15.0px;
+  border: 1.0px;
+  border-style: solid;
+  border-color:#D5D5D4 !important;
+  height: 280px;
+  padding: 20px;
+  background-color: #FFFAF1;
+  color: #908D87;
+  font-size: 12px;
+}
+
+textarea:focus {
+  outline: none !important;
+  box-shadow: 0 0 2px #ffae1a !important;
+  border: 1px solid #ffae1a !important; 
+}
+
+.gbackcenter {
+  text-align: center;
+  padding-top: 30px;
+  margin: 0 auto;
+}
+
+.gbacktitle {
+  margin: 0 auto;
+  text-align: center;
+  min-width: 380px;
+  margin-bottom: 40px;
+}
+
+.gbacktitle h1 {
+  color: #3A3A37;
+  font-size: 17px;
+  font-weight:500;
+}
+
+.checkbox {
+  bottom: 20px;
+  text-align: left;
+  font-weight: 300;
+}
+
+.gssnbox {
+  width: 100%;
+  min-width: 380px;
+  
+  margin: 0 auto;
+  max-width: 550px;
+}
+.rightBtn{
+  padding-left: 10px;
+  /*background-color: red;*/
+  margin: 0 auto;
+  /*opacity: 0.5;*/
+  /*filter: alpha(opacity=50);*/
+  position: relative;
+  left: 100px;
+  top: 45px;
+  z-index: 2;
+}
+.leftBtn{
+  padding-left: 10px;
+  margin: 0 auto;
+/*  opacity: 0.5;
+  filter: alpha(opacity=50);*/
+  position: relative;
+  left: -140px;
+  top:45px;
+  z-index: 2;
+}
+.rightBtnM{
+  padding-left: 10px;
+  /*background-color: red;*/
+  margin: 0 auto;
+  /*opacity: 0.5;*/
+  /*filter: alpha(opacity=50);*/
+  position: relative;
+  left: 10px;
+  top: 100px;
+  z-index: 2;
+}
+.leftBtnM{
+  padding-left: 10px;
+  margin: 0 auto;
+/*  opacity: 0.5;
+  filter: alpha(opacity=50);*/
+  position: relative;
+  left: -10px;
+  top:100px;
+  z-index: 2;
+}
+
+
